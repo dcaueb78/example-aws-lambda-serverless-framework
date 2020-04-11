@@ -11,4 +11,13 @@ sls deploy
 sls invoke -f hello
 
 # invoke local
-sls invoke local -f hello
+sls invoke local -f hello --log
+
+# configure dashboard
+sls 
+
+# logs
+sls logs -f hello --tail
+
+# remove
+sls remove
